@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cac5d11-1ee1-41e2-8da3-0dd478161421" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T1/text1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T1/text2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T1/text3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T2/text1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T2/text2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T2/text3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T3/text2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/660TestRepo/T3/text2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/660TestRepo/T3/text3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/660TestRepo/T3/text3.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/660TestRepo" />
+  </component>
+  <component name="ProjectId" id="1hql0dwmp7xlrkuTJvnuTWW2gFX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cac5d11-1ee1-41e2-8da3-0dd478161421" name="Default Changelist" comment="" />
+      <created>1600746281741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600746281741</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600746381118">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600746381118" />
+    <state width="1899" height="242" key="GridCell.Tab.0.bottom" timestamp="1600918330005">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="242" key="GridCell.Tab.0.bottom/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600918330005" />
+    <state width="1899" height="242" key="GridCell.Tab.0.center" timestamp="1600918330004">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="242" key="GridCell.Tab.0.center/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600918330004" />
+    <state width="1899" height="242" key="GridCell.Tab.0.left" timestamp="1600918330004">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="242" key="GridCell.Tab.0.left/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600918330004" />
+    <state width="1899" height="242" key="GridCell.Tab.0.right" timestamp="1600918330004">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="242" key="GridCell.Tab.0.right/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600918330004" />
+    <state x="469" y="190" key="SettingsEditor" timestamp="1600917551602">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="469" y="190" key="SettingsEditor/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600917551602" />
+    <state x="639" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1600746650162">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="639" y="384" key="com.intellij.ide.util.TipDialog/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600746650162" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1600750285005">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/-1440.109.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600750285005" />
+  </component>
+</project>

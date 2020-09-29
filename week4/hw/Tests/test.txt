@@ -1,0 +1,26 @@
+------------------------------------------------------------
+
+link1 = 'https://twitter.com/robots.txt'
+link2 = 'https://www.glassdoor.com/robots.txt'
+link3 = 'https://www.facebook.com/robots.txt'
+
+My output : {'facebook', 'baiduspider', 'disallow', 'ajax', 'ia', 'contact', 'file', 'archiver', 'terms'}
+
+------------------------------------------------------------
+link1 = 'https://tinder.com/robots.txt'
+link2 = 'https://www.google.com/robots.txt'
+link3 = 'https://www.redhat.com/robots.txt'
+
+My output : {'www', 'xml', 'test', 'com', 'html'}
+
+------------------------------------------------------------
+Files : test1, test2, test3
+My output : {'wondered', 'decided', 'safe', 'life', 'first', 'sign'}
+
+------------------------------------------------------------
+
+link1 = 'https://en.wikipedia.org/wiki/Formula_One'
+link2 = 'https://en.wikipedia.org/wiki/Frozen_(2013_film)'
+link3 = 'https://en.wikipedia.org/wiki/Halsey_(singer)'
+
+My output : {'woman', 'policy', 'rock', 'watching', 'done', 'fm', 'reasons', 'juggling', 'fpop', 'brooklyn', 'morris', 'june', 'fd', 'harmony', 'finterview', 'alone', 'kingdom', 'photos', 'ne', 'influences', 'vice', 'nicole', 'talks', 'protests', 'genres', 'vandalism', 'sexuality', 'kind', 'tour', 'us', 'reveals', 'carpet', 'voice', 'fv', 'accompanying', 'jon', 'background', 'young', 'surprise', 'forward', 'fq', 'got', 'performer', 'fi', 'industry', 'announces', 'themes', 'hot', 'pop', 'members', 'mainstream', 'hurt', 'ad', 'mother', 'write', 'via', 'trivia', 'choice', 'concept', 'confirmed', 'appearance', 'considered', 'nz', 'nominations', 'rising', 'american', 'ep', 'ireland', 'secret', 'eonline', 'artist', 'pregnant', 'lead', 'attention', 'upcoming', 'metal', 'grew', 'work', 'fashion', 'deluxe', 'meaning', 'child', 'career', 'month', 'roman', 'met', 'cell', 'watch', 'duet', 'middle', 'opens', 'couple', 'teen', 'gift', 'listening', 'category', 'lady', 'tunes', 'spin', 'legit', 'father', 'never', 'fan', 'althea', 'come', 'announcement', 'stress', 'wayne', 'star', 'mean', 'emo', 'scores', 'celebrate', 'articles', 'key', 'mars', 'legaspi', 'parenthood', 'u', 'bright', 'boy', 'listened', 'september', 'singers', 'justice', 'artists', 'personal', 'birthday', 'imagine', 'includes', 'described', 'album', 'music', 'reactions', 'black', 'afraid', 'people', 'poet', 'released', 'influence', 'truth', 'collaborating', 'generator', 'social', 'unknown', 'reluctant', 'awards', 'lgbt', 'tours', 'hair', 'fwatch', 'way', 'bring', 'songwriters', 'relationship', 'earth', 'farticles', 'featuring', 'bad', 'dead', 'wonder', 'shop', 'babe', 'yes', 'upside', 'regional', 'favorite', 'angry', 'reaching', 'musician', 'campaign', 'mtv', 'breakthrough', 'quit', 'monthly', 'sorry', 'emma', 'infobox', 'bullying', 'explains', 'fculture', 'song', 'beautiful', 'stated', 'microphone', 'perspective', 'talent', 'acoustic', 'speech', 'celebrates', 'artwork', 'responds', 'templates', 'finale', 'juliet', 'century', 'model', 'stage', 'artistry', 'fifty', 'foxnews', 'sony', 'online', 'new', 'spots', 'help', 'rowspan', 'assault', 'lua', 'video', 'nominees', 'nominated', 'passion', 'fall', 'collection', 'love', 'youtube', 'beat', 'performed', 'turner', 'year', 'hear', 'titled', 'acts', 'panic', 'capitol', 'appeared', 'os', 'videos', 'vertical', 'sad', 'room', 'nydailynews', 'intended', 'scared', 'closed', 'bullied', 'washington', 'see', 'distinctive', 'davis', 'ffeatured', 'dicaprio', 'feeling', 'episode', 'fmusic', 'debuted', 'interview', 'attempted', 'communications', 'radio', 'usa', 'fpeople', 'sean', 'dance', 'icon', 'colors', 'ariana', 'minutes', 'believe', 'stone', 'evan', 'nightmare', 'creators', 'singer', 'complex', 'mystique', 'totally', 'comments', 'feminist', 'missing', 'fstory', 'im', 'audio', 'cmw', 'launches', 'chart'}
