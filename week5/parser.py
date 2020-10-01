@@ -19,13 +19,13 @@ def getPage(url):
 
 # Extracts critic's name and publication from the review
 def extractCriticInfo(review):
-    publication = None
-    critic = review.find('div', {'class' : 'critic_name'}).find('a', recursive=False).contents[0]
 
-    try: publication = review.find('div', {'class' : 'critic_name'}).find('em')
-    except: pass
+    try: critic = review.find('div', {'class' : 'critic_name'}).find('a', recursive=False).contents[0]
+    except: critic = 'NA'
 
-    publication = publication.contents[0] if publication else 'NA'
+    try: publication = review.find('div', {'class' : 'critic_name'}).find('em').contents[0]
+    except: publication='NA'
+
     return critic, publication
 
 
@@ -48,7 +48,13 @@ def extractReviewInfo(review):
 
 # Load page html in bs4 and loads reviews into file
 def loadReviewsInFile(soup, outputFilePath):
-    reviews= soup.find('div', {'class' : 'review_table'}).find_all('div', {'class' : 'row review_table_row'})
+
+    # This codeblock means there is nothing on this page. It will not create a new file if it's for the first page. Just return the function.
+    try:
+        reviews= soup.find('div', {'class' : 'review_table'}).find_all('div', {'class' : 'row review_table_row'})
+    except:
+        return
+
     with open(outputFilePath, 'a') as file:
         for review in reviews:
             critic, publication = extractCriticInfo(review)
@@ -62,13 +68,13 @@ def run(movieUrl):
 
     # For the first page
     url = getPage(movieUrl)
-    if not url: return "Can not load the url that is given."
+    if not url: return "Can not load the given url."
     soup = BeautifulSoup(url.text, 'html.parser')
     loadReviewsInFile(soup, outputFilePath)
 
     # For the second page
     secondPageUrl = getPage(movieUrl + URLEXTENSION + str(2))
-    if not url: return "Can not load second page"
+    if not url: return "Can not load the second page"
     secondSoup = BeautifulSoup(secondPageUrl.text, 'html.parser')
     loadReviewsInFile(secondSoup, outputFilePath)
 
@@ -76,7 +82,7 @@ def run(movieUrl):
 
 
 if __name__ == '__main__':
-    link = 'https://www.rottentomatoes.com/m/enola_holmes/reviews'
+    link = 'https://www.rottentomatoes.com/m/ask_no_questions/reviews'
     run(link)
 
 
