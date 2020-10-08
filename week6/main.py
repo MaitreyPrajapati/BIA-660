@@ -33,10 +33,11 @@ def getTweets(link, _type):
                     if(tweet_text):
                         tweet_text = ' '.join([line.text for line in tweet_text[:-3]])
                         tweet_text = tweet_text.split('·')
-                        tweet_dict[t] = [tweet_text[min(len(tweet_text)-1, 1)], _type_counter]
+                        if(len(tweet_text) > 1 and tweet_text[1]):
+                            tweet_dict[t] = [tweet_text[min(len(tweet_text)-1, 1)], _type_counter]
 
-                        if len(tweet_dict) == 30:
-                            break
+                            if len(tweet_dict) == 30:
+                                break
 
             else:
                 print("No tweets left", len(tweet_dict))
@@ -86,6 +87,7 @@ def getCommonWords(link1, link2):
 
 
 if __name__ == '__main__':
-    link1 = 'https://twitter.com/SHAQ'
-    link2 = 'https://twitter.com/KingJames'
+    link1 = 'https://twitter.com/UEFA'
+    link2 = 'https://twitter.com/washingtonpost'
+
     print(getCommonWords(link1, link2))

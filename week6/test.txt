@@ -1,0 +1,31 @@
+
+link1 = 'https://twitter.com/UEFA'
+link2 = 'https://twitter.com/washingtonpost'
+
+T1 : Never stop dreaming  Thank you for this prestigious awards. Tonight is a proud moment, but the journey continues   
+T2 : Pence dodges question on prospect of Roe v Wade being overturned Vice-presidential debate live updates: Pence, Harris poised to square off in Salt Lake City Vice-presidential debate live updates: Pence, Harris poised to square off in Salt Lake City The running mates of President Trump and Democrat Joe Biden are scheduled to appear for 90 minutes at the University of Utah in their first and only debate of the 2020 election. The running mates of President Trump and Democrat Joe Biden are scheduled to appear for 90 minutes at the University of Utah in their first and only debate of the 2020 election. washingtonpost.com washingtonpost.com
+
+Answer:
+{'for', 'the'}
+___________________________________________________________________
+
+link1 = 'https://twitter.com/sundarpichai'
+link2 = 'https://twitter.com/elonmusk'
+
+T1:  According to Jewish tradition, a person who dies on Rosh Hashanah, which began tonight, is a tzaddik, a person of great righteousness. Baruch Dayan HaEmet. 
+T2: Call of Booty, great game
+
+Answer:
+{'of', 'great'}
+
+___________________________________________________________________
+
+link1 = 'https://twitter.com/SHAQ'
+link2 = 'https://twitter.com/KingJames'
+
+T1 :  I’m partnering with to challenge to pledge to vote this November. Together, WE can be the change WE want to see in the world. Register today ---> 
+T2 : The most DISRESPECTED person on earth is THE BLACK WOMAN! I promise you I’ll do my best to change this as much as I can and even more!! LOVE to you QUEENS all over this country and beyond!
+
+Answer:
+{'can', 'to', 'this', 'change'}
+
