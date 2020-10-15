@@ -76,8 +76,12 @@ def getCommonWords(link1, link2):
 
     tweet_one = str(getEmTweet(link1, 'reply')[1][0])
     tweet_two = str(getEmTweet(link2, 'like')[1][0])
+    print(tweet_one, '\n', tweet_two)
     tweet_one = set(re.sub(r'(\n|,|\.|/\n|\\)', ' ', tweet_one).split(' '))
     tweet_two = set(re.sub(r'(\n|,|\.|/\n|\\)', ' ', tweet_two).split(' '))
+
+
+
 
     for i in tweet_one:
         if i and i in tweet_two:
