@@ -16,7 +16,12 @@ def loadLink(p_code):
 
     while(link):
         driver.get(link)
-        reviews = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-hook="review"]')))
+
+        try:
+            reviews = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-hook="review"]')))
+        except:
+            return []
+
         for review in reviews:
             ratings = re.search(REGEX_PATTERN, review.find_element_by_css_selector('i[data-hook$="review-star-rating"]').get_attribute('class')).group(0)[-1]
             text = review.find_element_by_css_selector('span[data-hook="review-body"]').text
@@ -24,7 +29,10 @@ def loadLink(p_code):
                 review_set.add((ratings, text))
                 review_list.append((ratings, text))
 
-        next_page_link = driver.find_element_by_css_selector('div[data-hook="pagination-bar"]').find_element_by_class_name('a-last')
+        try:
+            next_page_link = driver.find_element_by_css_selector('div[data-hook="pagination-bar"]').find_element_by_class_name('a-last')
+        except:
+            break
 
         if('a-disabled' in next_page_link.get_attribute('class')):
             break
@@ -41,9 +49,7 @@ def scrape(link):
         csv_writer = csv.writer(file, delimiter=',')
 
         for (ratings, text) in review_list:
-            csv_writer.writerow([ratings, text])
+            csv_writer.writerow([text, ratings])
 
-
-
-link = 'https://www.amazon.com/Sennheiser-Momentum-Cancelling-Headphones-Functionality/dp/B07VW98ZKG'
+link = 'http://amazon.com/MYKITA-Eyeglasses-Handmade-Patented-Optical/dp/B07NV3KSQJ'
 scrape(link)
