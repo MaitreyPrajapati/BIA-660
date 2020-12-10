@@ -26,10 +26,10 @@ college_links = [
 driver = webdriver.Chrome('chromeDriver/chromedriver')
 
 ### Need to change profile before visiting
-user = 'maitrey2112@gmail.com'
+user = 'mockddmock@gmail.com'
 passw = 'Parseword@2112'
 
-def getVisitedLinks(file):
+def get_visited_links(file):
     visited = set()
     with open(file) as file:
         csv_reader = csv.reader(file, delimiter=',')
@@ -37,7 +37,9 @@ def getVisitedLinks(file):
             visited.add(l[0])
     return visited
 
-visited = getVisitedLinks('links_1.csv')
+visited = get_visited_links('links_1.csv')
+downloaded = set()
+
 if not visited:
     visited = set()
 
@@ -48,7 +50,7 @@ def login(username, password):
     driver.find_element_by_css_selector('button[data-litms-control-urn="login-submit"]').click()
 
 
-def getProfiles(link):
+def get_profiles(link):
     print('-----------------------------------------------------------------------\n Trying out link : {}\n\n'.format(link))
     driver.get(link)
     last_height, curr_height = 0, 1
@@ -78,12 +80,16 @@ def getProfiles(link):
         return True
     return False
 
+def get_profile_data(link):
+    driver.get()
 
 def run():
     login(user, passw)
-    for l in college_links:
-        if getProfiles(l):
-            break
+    if(len(visited) < 2000):
+        for l in college_links:
+            if get_profiles(l):
+                break
+
 
 run()
 
